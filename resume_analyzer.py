@@ -2,18 +2,20 @@ from transformers import pipeline
 import nltk
 import re
 
-nltk.download('punkt')  # For sentence tokenization
+# Sentence tokenization
+nltk.download('punkt')
 
 # CV text
 resume_text = """
-John Doe is a junior machine learning engineer with a background in SVM-based classification models.
-He completed a research thesis using support vector machines for text classification.
+George Panagiotopoulos is a junior machine learning engineer with a background in SVM-based classification models.
+He completed his research thesis using support vector machines for text classification.
 Skilled in Python, Scikit-learn, data preprocessing, and model evaluation.
+A team player and fast learner with strong communication skills. 
 Currently studying large language models and transformer architectures.
 """
 
 # Quick review
-print("⏳ Loading summarizer model...")
+print("Loading summarizer ...")
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
 
 def summarize_resume(text):
