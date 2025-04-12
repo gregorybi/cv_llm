@@ -34,7 +34,7 @@ soft_keywords = ["team", "communication", "problem solver", "adapt", "fast learn
 def extract_skills(text, keywords):
     found = [word for word in keywords if re.search(rf"\b{word}\b", text, re.IGNORECASE)]
     return found
-    # return list(set(found))[:5]
+    
 
 # Improvement suggestions
 def suggest_improvements(text):
