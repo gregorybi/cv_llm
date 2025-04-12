@@ -51,6 +51,6 @@ python3 resume_analyzer.py
 ```
 
 ## Algorithm
-The model reads CV and produces a brief summary.
-It also finds keywords asocciated with technical and soft skills of the canditate and displays them seperately.
+The model reads CV and produces a brief summary.\
+It also finds keywords asocciated with technical and soft skills of the canditate and displays them seperately.\
 Furthermore it also produces CV improvement suggestions based on the data provided.
