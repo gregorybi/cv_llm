@@ -8,10 +8,11 @@ nltk.download('punkt')
 # CV text
 resume_text = """
 George Panagiotopoulos is a junior machine learning engineer with a background in SVM-based classification models.
-He completed his research thesis using support vector machines for text classification.
-Skilled in Python, Scikit-learn, data preprocessing, and model evaluation.
-A team player and fast learner with strong communication skills and keen atention to detail. 
-Currently studying large language models and transformer architectures.
+He gratuated recently and completed his research thesis using support vector machines for text classification.
+Skilled in Python, Scikit-learn, K-means clustering, data preprocessing, and model evaluation.
+He is a team player, fast learner and problem solver 
+with strong communication skills and keen atention to detail. 
+Currently studying large language models.
 """
 
 # Quick review
@@ -27,7 +28,7 @@ def summarize_resume(text):
 tech_keywords = ["Python", "Scikit-learn", "PyTorch", "TensorFlow", "data preprocessing",
                  "SVM", "transformer", "BERT", "NLP", "machine learning", "model evaluation"]
 
-soft_keywords = ["team", "communication", "problem", "adapt", "fast learner", "collaborate", 
+soft_keywords = ["team", "communication", "problem solver", "adapt", "fast learner", "collaborate", 
                  "attention to detail"]
 
 def extract_skills(text, keywords):
@@ -53,11 +54,11 @@ if __name__ == "__main__":
 
     print("\n Technical Skills Found:")
     print (*extract_skills(resume_text, tech_keywords), sep=', ')
-    # print(", ".join(extract_skills(resume_text, tech_keywords)))
+    
 
     print("\n Soft Skills Found:")
     print (*extract_skills(resume_text, soft_keywords), sep=', ')
-    # print(", ".join(extract_skills(resume_text, soft_keywords)))
+    
 
     print("\n Suggestions:")
     for suggestion in suggest_improvements(resume_text):
