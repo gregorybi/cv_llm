@@ -37,6 +37,12 @@ git clone https://github.com/gregorybi/cv_llm.git
 cd cv_llm
 ```
 
+2. Dowload the Model
+```bash
+pip install transformers torch nltk
+```
+You’ll download the model the first time you run it (it'll be cached afterward)
+
 ## Execute
 1. Execute the Python script in the terminal
 
