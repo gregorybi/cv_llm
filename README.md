@@ -1,6 +1,6 @@
 # Large Language Model analyzing CV
 
-In this project is an application using an LLM to handle candiatates CV data.
+This project is an application using an LLM to handle a canditate's CV data.
 The model summarizes the CV and produces output regarding canditates tech and soft skills.
 The model also provides suggestions for CV optimization.
 
