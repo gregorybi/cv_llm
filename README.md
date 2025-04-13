@@ -13,12 +13,14 @@ The model also provides suggestions for CV optimization.
 - Algorithm
 
 ## Intro
-- The model used is BART (Bidirectional and Auto-Regressive Transformer)
+- The model used is facebook/bart-large-cnn
+- Task: Text Summarization
+- BART is a transformer model pre-trained for language understanding and generation.
 - The language of developement is Python
 
 ## Prerequisites
-- Install [Python 3]
-- Install [Dependencies]
+- Install Python 3
+- Install Dependencies
 - Has to be execute in linux based environment
 
 ## Setup
