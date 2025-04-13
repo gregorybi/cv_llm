@@ -19,7 +19,8 @@ The model also provides suggestions for CV optimization.
 - The language of developement is Python
 
 ## Prerequisites
-- Install Python 3
+- Python 3.8+
+- pip
 - Install Dependencies
 - Has to be execute in linux based environment
 
@@ -31,18 +32,21 @@ git clone https://github.com/gregorybi/cv_llm.git
 cd cv_llm
 ```
 
-2. Dowload the Model
+2. Dowload the Model (Install Dependencies)
 ```bash
 pip install transformers torch nltk
 ```
-You’ll download the model the first time you run it (it'll be cached afterward)
+You’ll download the model the first time you run it.
 
 ## Execute
-1. Execute the Python script in the terminal
+1. Edit the resume_text variable inside resume_analyzer.py with your resume content (or load a resume from a file).
+   
+2. Execute the Python script in the terminal
 
 ```bash
 python3 resume_analyzer.py
 ```
+3. The analyzer will print the resume summary, skill extraction and improvement suggestions in the terminal.
 
 ## Algorithm
 The model reads CV and produces a brief summary.\
