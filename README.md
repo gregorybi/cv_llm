@@ -18,7 +18,7 @@ The model also provides suggestions for CV optimization.
 - [Prerequisites] (#prerequisites)
 - [Setup] (#setup)
 - [Execute] (#execute)
-- [Algorithm] (#algorithm)
+- Algorithm
 
 ## Intro
 - The model used is BART (Bidirectional and Auto-Regressive Transformer)
