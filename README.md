@@ -4,20 +4,12 @@ This project is an application using an LLM to handle a canditate's CV data.
 The model summarizes the CV and produces output regarding canditate's tech and soft skills.
 The model also provides suggestions for CV optimization.
 
-
 ## Table of Contents
 
-- [Intro] (#intro)
-- [Prerequisites] (#prerequisites)
-- [Setup] (#setup)
-- [Execute] (#execute)
-
-## Table of Contents
-
-- [Intro] (#intro)
-- [Prerequisites] (#prerequisites)
-- [Setup] (#setup)
-- [Execute] (#execute)
+- Intro
+- Prerequisites
+- Setup
+- Execute
 - Algorithm
 
 ## Intro
